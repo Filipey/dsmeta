@@ -37,6 +37,8 @@ These tecnologies are used in this project:
 
 <br>
 
+# :warning: If you are using the deployed version on Netlify, wait to the data loads from Heroku, because the server are on sleep mode.
+
 # Development
 
 Before start, you gonna need install those tools:
@@ -74,7 +76,7 @@ $ mvn spring-boot:run
 # The server gonna run on the port:8080
 ```
 
-### After run the backend and the frontend, you gonna see algo similar to this
+### After run the backend and the frontend, you gonna see something similar to this
 
 ![Entire screen](/img/fullScreen.png)
 
