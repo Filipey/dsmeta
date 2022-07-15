@@ -12,7 +12,7 @@ interface NotificationButtonProps {
 function handleClickButton(saleId: number) {
   axios
     .get(`${BASE_URL}/sales/${saleId}/notification`)
-    .then(() => toast.info("SMS enviado com sucesso"))
+    .then((res) => toast.info("SMS enviado com sucesso"))
 }
 
 function NotificationButton({ saleId }: NotificationButtonProps) {
